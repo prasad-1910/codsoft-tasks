@@ -1,0 +1,246 @@
+:root{
+    background-color: rgb(218,107,144);
+}
+body{
+    background-color: rgb(218,107,144);
+    margin: 0;
+     padding: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     outline:none;
+     text-decoration:none;
+    text-transform:capitalize;
+    transition:2s liner;
+}
+
+section{
+    padding: 3% 9%;
+
+
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+.btn{
+
+     padding: 10px 14px;
+     background-color: var(white);
+     color: rgb(242, 237, 237);
+     border-radius: 150rem;
+    font-size:14px;
+    
+}
+.btn:hover{
+    background-color: rgb(83, 5, 83);
+}
+
+  
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    background-color: pink;display: flex;
+    align-items:center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem 1rem pink(0,0,0,.1);
+    z-index: 1000;
+    font-weight: bolder;
+}
+
+header.logo{
+     font-size: 3rem;
+     color:black;
+     font-weight: bolder;
+
+}
+header.logo span{
+     color: var(--pink);
+     color: rgb(242, 237, 237);
+     border-radius: 30rem;
+    font-size:14px;
+
+}
+
+header .navbar a{
+    padding: 10px 14px;
+     background-color: var(white);
+     color: rgb(11, 11, 11);
+     border-radius: 30rem;
+    font-size:25px;
+
+
+}
+header  .navbar a:hover{
+    background-color: rgb(83, 5, 83);
+}
+
+
+
+
+
+header .icons a{
+    font-size: 2.5rem;
+    color: black;
+    margin-left: 1.5rem;
+
+}
+
+header  .icons a:hover{
+    color: var(--pink);
+}
+
+header #toggler{
+    display: none;
+
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:black;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid black(0,0,0,1);
+    display: none;
+
+}
+
+.home-img{
+    display: flex;
+    height: 400px;
+    right: 16px;
+    font-size: 18px;
+    top: 100px;
+    padding:auto;
+    width: 400%;
+    position:absolute;
+    right: 30px;
+    top: 100px;
+    max-width: 40%;
+    width: 100%;
+    z-index: 1;
+
+    
+    
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.home .content{
+    max-width: 50rem ;
+}
+    
+.home .content h3{
+    font-size: 2.5rem;
+    color: black;
+
+}
+.home .content span{
+    font-size: 2rem;
+    color: var(--pink);
+    padding:1rem 0;
+    line-height:1.5;
+
+    
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color:#0b0202;
+    padding:40px 9% 0;
+    line-height:1.5;
+    align-items:center
+    
+    
+}
+
+.product-row .box-containersss {
+  display: flex;
+  flex-direction: row;        /* Align items in a row */
+  justify-content: center;    /* Center them */
+  flex-wrap: wrap;            /* Wrap on small screens */
+  gap: 20px;                  /* Space between products */
+  padding: 0% 8%;
+}
+
+
+.product .box-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem;
+
+}
+
+.product .box-container .box{
+
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem black;
+    border-radius:.1rem solid black;
+    position: relative;
+}
+.product .box-container .box .discount{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    padding: .7rem 1rem;
+    font-size: 2rem;
+    color: var(--pink);
+background: #0b0202;
+z-index: 1;
+
+}
+
+.product .box-container .box .image img{
+    height: 25rem;
+}
+
+.price{
+    font-size: 3.5;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.about-img img{
+    width: 400px;
+    float: right;
+}
+
+.about-text{
+    float: left;
+}
+h2{
+
+    font-size: 30px;
+    font-weight: 500;
+}
+.about-text span{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.h2 .P{
+    font-size: 3rem;
+    color:#0b0202;
+    padding:40px 9% 0;
+    line-height:1.5;
+    align-items:center
+    
+}
+h4{
+    font-text: left;
+}
